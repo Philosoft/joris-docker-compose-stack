@@ -1,7 +1,7 @@
-Install phpunit
+Install dependencies
 
 ```
-docker run --rm -it --user $(id -u):$(id -g) --volume "$PWD:/app" composer:2.0.7 require "phpunit/phpunit:~9.5"
+docker run --rm -it --user $(id -u):$(id -g) --volume "$PWD:/app" composer:2.0.7 install
 ```
 
 Enjoy
